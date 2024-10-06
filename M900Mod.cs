@@ -130,9 +130,9 @@ namespace M900
                 ShallowCopy(ammo_m900, ammo_m833);
                 ammo_m900.Name = "M900 APFSDS-T";
                 ammo_m900.Caliber = 105;
-                ammo_m900.RhaPenetration = 540;
+                ammo_m900.RhaPenetration = 520;
                 ammo_m900.MuzzleVelocity = 1500f;
-                ammo_m900.Mass = 4.2f;
+                ammo_m900.Mass = 3.85f;
 
                 ammo_codex_m900 = ScriptableObject.CreateInstance<AmmoCodexScriptable>();
                 ammo_codex_m900.AmmoType = ammo_m900;
